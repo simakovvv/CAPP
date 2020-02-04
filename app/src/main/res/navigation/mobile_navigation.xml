@@ -7,26 +7,26 @@
 
     <fragment
         android:id="@+id/nav_applications"
-        android:name="com.harman.vsimakov2.CAPP.ui.home.SettingsFragment"
+        android:name="com.harman.vsimakov2.CAPP.ui.gallery.ApplicationsFragment"
         android:label="@string/menu_applications"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_settings" />
 
     <fragment
         android:id="@+id/nav_settings"
-        android:name="com.harman.vsimakov2.CAPP.ui.gallery.ApplicationsFragment"
+        android:name="com.harman.vsimakov2.CAPP.ui.home.SettingsFragment"
         android:label="@string/menu_settings"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_applications" />
 
     <fragment
         android:id="@+id/nav_about"
         android:name="com.harman.vsimakov2.CAPP.ui.slideshow.AboutFragment"
         android:label="@string/menu_about"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_about" />
 
     <fragment
         android:id="@+id/nav_logout"
         android:name="com.harman.vsimakov2.CAPP.ui.tools.LogoutFragment"
         android:label="@string/menu_logout"
-        tools:layout="@layout/fragment_tools" />
+        tools:layout="@layout/fragment_logout" />
 
 </navigation>

@@ -12,18 +12,18 @@ import com.harman.vsimakov2.CAPP.R
 
 class LogoutFragment : Fragment() {
 
-    private lateinit var toolsViewModel: LogoutViewModel
+    private lateinit var logoutViewModel: LogoutViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        toolsViewModel =
+        logoutViewModel =
             ViewModelProviders.of(this).get(LogoutViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_tools, container, false)
+        val root = inflater.inflate(R.layout.fragment_logout, container, false)
         val textView: TextView = root.findViewById(R.id.text_tools)
-        toolsViewModel.text.observe(this, Observer {
+        logoutViewModel.text.observe(this, Observer {
             textView.text = it
         })
         return root

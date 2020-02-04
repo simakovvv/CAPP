@@ -13,7 +13,6 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.navigation.NavigationView
 import com.harman.vsimakov2.CAPP.smartDeviceLink.SdlService
-import com.harman.vsimakov2.capp.smartDeviceLink.SdlReceiver
 
 class MainActivity : AppCompatActivity() {
 
